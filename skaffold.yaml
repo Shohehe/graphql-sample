@@ -1,0 +1,12 @@
+apiVersion: skaffold/v1beta5
+kind: Config
+build:
+  artifacts:
+  - image: gateway
+    context: ./gateway
+  - image: client
+    context: ./client
+deploy:
+  kubectl:
+    manifests:
+    - k8s/*

@@ -26,8 +26,8 @@
 
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/mitubaEX/graphQL_sample"
+  name = "github.com/graphql-go/graphql"
+  version = "0.7.7"
 
 [prune]
   go-tests = true
